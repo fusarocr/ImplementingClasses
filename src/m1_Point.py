@@ -101,7 +101,7 @@ class Point(object):
             return point1
 
     def halfway_to(self, point):
-        return Point((0.5*(self.x + point.x), 0.5*(self.y + point.y)))
+        return Point(0.5*(self.x + point.x), 0.5*(self.y + point.y))
 
 
 def run_test_init():
